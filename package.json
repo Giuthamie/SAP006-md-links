@@ -1,7 +1,7 @@
 {
-  "name": "md-links-giuliana-thamie",
+  "name": "md-links",
   "version": "0.1.0",
-  "description": "## Índice",
+  "description": "lib que retorna links em aquivos do tipo .md",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -16,8 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/Giuthamie/SAP006-md-links.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "biblioteca",
+    "markdown"
+  ],
+  "author": "Giuliana Thamiê Balderrama Araujo Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Giuthamie/SAP006-md-links/issues"
