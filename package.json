@@ -1,7 +1,7 @@
 {
   "name": "md-links",
   "version": "0.1.0",
-  "description": "biblioteca que retorna links em aquivos do tipo .md",
+  "description": "biblioteca que retornará links dentro de aquivos do tipo .md",
   "main": "index.js",
   "directories": {
     "test": "test"
