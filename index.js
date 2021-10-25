@@ -6,12 +6,16 @@ console.log(chalk.blue("bin"))
 function handleError(error) {
     throw new Error(chalk.red(error.code, 'Não há arquivo no caminho'));
 }
-function getFile(filePath) {
-    const encoding = 'utf-8'
-    fs.readFile(filePath, encoding, (error, data) => {
-        if (error) {
-            handleError(error);
-        } console.log(chalk.green(data))
-    })
+
+async function getFile(filePath) {
+    const enconding = 'utf-8';
+    try {
+    const text = await fs.promises.readFile(filePath, enconding)
+    console.log(chalk.green(text))
+} catch(error){
+    handleError(error)
 }
-getFile('README.md')
+}
+
+
+getFile('./files/teste.md')
