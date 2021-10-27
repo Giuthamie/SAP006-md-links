@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "md-links": "node cli.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Giuthamie/SAP006-md-links.git"
@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/Giuthamie/SAP006-md-links#readme",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
