@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "md-links": "node cli.js"
+    "md-links": "node cli.js ./files/teste.md"
   },
   "repository": {
     "type": "git",

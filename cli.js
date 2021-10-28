@@ -7,7 +7,7 @@ const road = process.argv;
 async function processingText(pathFile) {
     const results = await mdLinks(pathFile[2]);
     if(road[3] === 'validar'){
-        console.log(chalk.yellow('links validados'), validateLinks(results));
+        console.log(chalk.yellow('links validados'), await validateLinks(results));
 
     } else {
         console.log(chalk.yellow('listagem de links'), results);
