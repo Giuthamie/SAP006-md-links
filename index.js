@@ -1,6 +1,6 @@
 const chalk = require('chalk')
 const fs = require('fs')
-const path = require('path')
+//const path = require('path')
 
 function getLinks(text) {
     const regex = /\[([^\]]*)\]\((https?:\/\/[^*$#\s].[^\s]*)\)/gm;
